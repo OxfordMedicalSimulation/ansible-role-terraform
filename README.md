@@ -53,7 +53,7 @@ Example playbook for installing to single user:
 ```yaml
 - hosts: control_hosts
   roles:
-    - { role: xanmanning.terraform, terraform_version: 0.11.14 }
+    - { role: oxfordmedicalsimulation.terraform, terraform_version: 0.11.14 }
 ```
 
 Example playbook for installing the latest Terraform version globally:
@@ -67,7 +67,7 @@ Example playbook for installing the latest Terraform version globally:
     terraform_install_dir: /opt/terraform/bin
     terraform_projects_dir: /opt/terraform/projects
   roles:
-    - role: xanmanning.terraform
+    - role: oxfordmedicalsimulation.terraform
 ```
 
 ### Note about `terraform_projects`
